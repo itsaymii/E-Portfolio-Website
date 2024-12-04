@@ -1038,13 +1038,14 @@ footer {
     margin-top: -530px;
     margin-left: 30px;
   }
+  .header-text h1{
+    line-height: 30px;
+  }
   .see-work{
+    margin-top: 50px;
     font-size: 10px;
-    margin-left: 30px;
-  }
-  .social-icons{
-    margin-left: -20px;
-  }
+    margin-left: 20px;
+  } 
   .social-icons i{
     font-size: 12px;
     margin-left: -10px;
@@ -1057,7 +1058,7 @@ footer {
 
   /* ABOUT */
   #about{
-    height: 705px
+    height: 745px
   }
   .card{
     width: 150px;
@@ -1124,8 +1125,340 @@ footer {
     margin-top: 1130px;
   }
   /* CONTACT */
+  #contact{
+    height: 330px;
+  }
   .contact-container h1{
     font-size: 30px;
+    margin-top: -20px;
+  }
+  .social-icons{
+    margin-left: 10px;
+  }
+  #contact .social-icons i{
+    margin: 15px;
+    font-size: 20px;
+  }
+
+  .contact-info{
+    margin-top: 30px;
+  }
+  .email-info span{
+    font-size: 10px;
+  }
+  .phone-info span{
+    font-size: 10px;
+
+  }
+}
+
+@media only screen and (max-width: 375px){
+  nav .nav-links a {
+    display: none;
+  }
+
+  .hamburger {
+      display: flex;
+      margin-left: 220px; 
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+  .hamburger i {
+      font-size: 25px; /
+  }
+
+  nav .nav-links.active a {
+      display: block; 
+      padding: 10px;
+      text-align: center; 
+  }
+
+  nav .nav-links.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 40px;
+      right: 0;
+      background-color: #000000;
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .logo img{
+    width: 40px;
+  }
+  /* HOME */
+  #home{
+    height: 430px;
+  }
+  .home-image img{
+    width: 210px;
+    margin-top: 312px;
+    margin-left: -10px;
+  }
+  .header-text{
+    margin-top: -530px;
+    margin-left: 30px;
+  }
+  .header-text h1{
+    line-height: 30px;
+  }
+  .see-work{
+    width: 80px;
+    height: 20px;
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .social-icons{
+    margin-left: -20px;
+  }
+  .social-icons i{
+    font-size: 12px;
+    margin-left: -10px;
+  }
+
+  .intro{
+    margin-left: -30px;
+  }
+
+
+  /* ABOUT */
+  #about{
+    height: 785px
+  }
+  .card{
+    width: 150px;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  .card img{
+    width: 150px;
+    margin-top: 85px;
+  }
+  .about-container h1{
+    display: flex;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 25px;
+  }
+  .about-container p{
+    margin: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+  }
+  .about-button{
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  /* SKILLS */
+  #skills{
+    height: 450px;
+  }
+  .skill-progress{
+    margin-left: 50px;
+    margin-left: 20px;
+  }
+  .skill-name{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .skills-container h1{
+    font-size: 30px;
+  }
+
+  /* PROJECTS */
+  #projects{
+    height: 1770px;
+  }
+  .projects-container h1{
+    font-size: 30px;
+  }
+  #projects .projects-cards{
+  display: flex;
+  justify-content: space-around;
+  gap: -90px;
+  margin-top: 70px;
+  margin-left: 5px;
+  }
+  .project-card:nth-child(2){
+    position: absolute;
+    margin-top: 560px;
+  }
+  .project-card:nth-child(3){
+    position: absolute;
+    margin-top: 1130px;
+  }
+  /* CONTACT */
+  .contact-container h1{
+    font-size: 30px;
+  }
+
+  #contact .social-icons{
+    margin: -10px;
+    font-size: 20px;
+  }
+
+  .contact-info{
+    margin-top: 30px;
+  }
+  .email-info span{
+    font-size: 10px;
+  }
+  .phone-info span{
+    font-size: 10px;
+
+  }
+}
+
+@media only screen and (max-width: 320px){
+  nav .nav-links a {
+    display: none;
+  }
+
+  .hamburger {
+      display: flex;
+      margin-left: 220px; 
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+  .hamburger i {
+      font-size: 25px; /
+  }
+
+  nav .nav-links.active a {
+      display: block; 
+      padding: 10px;
+      text-align: center; 
+  }
+
+  nav .nav-links.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 40px;
+      right: 0;
+      background-color: #000000;
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .logo img{
+    width: 40px;
+  }
+  /* HOME */
+  #home{
+    height: 370px;
+  }
+  .home-image img{
+    width: 150px;
+    margin-top: 312px;
+    margin-left: -5px;
+  }
+  .header-text{
+    margin-top: -530px;
+    margin-left: 30px;
+  }
+  .header-text h1{
+    line-height: 30px;
+  }
+  .see-work{
+    width: 80px;
+    height: 20px;
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .social-icons{
+    margin-left: -20px;
+  }
+  .social-icons i{
+    font-size: 12px;
+    margin-left: -10px;
+  }
+
+  .intro{
+    margin-left: -30px;
+  }
+
+
+  /* ABOUT */
+  #about{
+    height: 815px
+  }
+  .card{
+    width: 120px;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  .card img{
+    width: 150px;
+    margin-top: 85px;
+  }
+  .about-container h1{
+    display: flex;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 25px;
+  }
+  .about-container p{
+    margin: 20px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: -10px;
+  }
+  .about-button{
+    width: 90px;
+    height: 19px;
+    font-size: 8px;
+    margin-left: 22px;
+    margin-top: 10px;
+  }
+  /* SKILLS */
+  #skills{
+    height: 450px;
+  }
+  .skill-progress{
+    margin-left: 50px;
+    margin-left: 10px;
+  }
+  .skill-name{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .skills-container h1{
+    font-size: 25px;
+  }
+
+  /* PROJECTS */
+  #projects{
+    height: 1770px;
+  }
+  .projects-container h1{
+    font-size: 25px;
+  }
+  .project-card{
+    width: 110px;
+  }
+  #projects .projects-cards{
+  display: flex;
+  justify-content: space-around;
+  gap: -90px;
+  margin-top: 70px;
+  margin-left: 0px;
+  }
+  .project-card:nth-child(2){
+    position: absolute;
+    margin-top: 560px;
+  }
+  .project-card:nth-child(3){
+    position: absolute;
+    margin-top: 1130px;
+  }
+  /* CONTACT */
+  .contact-container h1{
+    font-size: 25px;
   }
 
   #contact .social-icons{
